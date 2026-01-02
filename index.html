@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+   <head>
+      <meta charset="utf-8">
+      <title>Home Page</title>
+      <!-- Viewport -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- SEO Meta Tags -->
+      <meta name="description" content=""/>
+      <!-- Favicon -->   
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+      <!-- Main Theme Styles + Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/animate.css"/>
+      <link rel="stylesheet" href="css/owl.carousel.css"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/extra-css.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   </head>
+   <!-- Body -->
+   <body>
+
+      <!-- Button trigger modal -->
+
+ 
+ <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog service_popup">
+     <div class="modal-content">
+       <div class="modal-body">
+         <div class="modal-body">
+            <h5 class="text-center">Services</h5>
+            <div class="mb-4 media">
+               <div class="media-left media-top">
+                  <div class="img_box">
+                     <img src="img/ReleaseEgineering.png" alt="Generic placeholder image" width="100" height="100" class="media-object">
+                  </div>
+                  <h5>Release Engineering</h5>
+               </div>
+               <div class="scrollbar media-body">
+                  <p>Facilitate rapid Software Development cycle with Dockerization for continuous development and testing. Aim for defectless releases with short release cycles. Create a dedicated pipeline to remove manual error and enable you for a rapid iteration so that you can focus on product release.</p>
+               </div>
+            </div>
+            <div class="flex-end"><button type="button"  data-bs-dismiss="modal" class="btn btn-primary">Close</button></div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+      <div class="wrapper">
+         <header class="fixed-top">
+            <div class="header">
+               <!--Main header start-->
+               <nav class="navbar navbar-expand-lg">
+                  <div class="container">
+                     <a class="navbar-brand comp-logo" href=".">
+                     <img src="img/logo.png" class="img-fluid" alt="TDL">
+                     </a>
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-lg-auto">
+                           <li class="nav-item">
+                              <a class="nav-link px-0" href="index.html">Services</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link px-0" href="about.html">About Us</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link px-0" href="how-we-work.html">How We Work</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="#" class="nav-link px-0">Blogs</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="career.html" class="nav-link px-0">Career</a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="#" class="nav-link px-0">Contact</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+               <!--Main header end-->
+            </div>
+         </header>
+      
+         <section class="banner">
+             <div class="container">
+                 <div class="row align-items-center justify-content-between">
+                    <div class="col-md-4 wow fadeInLeft">
+                       <div class="ban-cont">
+                           <h2>Design, deployment, and management <br>
+                              partner for your cloud</h2>
+                           <p>Adopt powerful cloud solutions to <br> introduce better efficiency, increase <br> revenues and build a scalable business.</p>
+                           <div class="d-flex">
+                              <a href="" class="btn theme-btn">Book a call</a>
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="col-md-7 wow fadeInRight">
+                       <img src="img/home-1.webp" class="img-fluid" alt="">
+                    </div>
+                 </div>
+             </div>
+         </section>
+
+         <div class="section-padding tabs">
+             <div class="container">
+                 <div class="row justify-content-between">
+                    <div class="col-md-6 pe-md-5 wow fadeInLeft">
+                        <div class="tab-card">
+
+                           <hr class="border-0 mt-0">
+                            <p>360 Degree Solution <br>
+                              with distinct supervision 24/7</p>
+                        </div>
+                        <nav>
+                           <div class="nav nav-tabs border-0 mb-3" id="nav-tab" role="tablist">
+                              <button class="nav-link active border-0" id="nav-What-tab" data-bs-toggle="tab" data-bs-target="#nav-What" type="button" role="tab" aria-controls="nav-What" aria-selected="true">What</button>
+                              <button class="nav-link border-0" id="nav-How-tab" data-bs-toggle="tab" data-bs-target="#nav-How" type="button" role="tab" aria-controls="nav-How" aria-selected="false">How</button>
+                              <button class="nav-link border-0" id="nav-When-tab" data-bs-toggle="tab" data-bs-target="#nav-When" type="button" role="tab" aria-controls="nav-When" aria-selected="false">When</button>
+                              <button class="nav-link border-0" id="nav-Why-tab" data-bs-toggle="tab" data-bs-target="#nav-Why" type="button" role="tab" aria-controls="nav-Why" aria-selected="true">Why</button>
+                              <button class="nav-link border-0" id="nav-From-tab" data-bs-toggle="tab" data-bs-target="#nav-From" type="button" role="tab" aria-controls="nav-From" aria-selected="false">From</button>
+                              <button class="nav-link border-0" id="nav-to-tab" data-bs-toggle="tab" data-bs-target="#nav-to" type="button" role="tab" aria-controls="nav-to" aria-selected="false">to</button>
+                           </div>
+                        </nav>
+                    </div>
+                 </div>
+
+                 <div class="row">
+                    <div class="col-md-12">
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade active show" id="nav-What" role="tabpanel" aria-labelledby="nav-What-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 wow fadeInRight col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>What does CloudDrove do?</h3>
+                                 <p>CloudDrove offers a range of services that commit hassle-free cloud management. Our expertise includes assistance with infrastructure automation, docker & container orchestration, performance engineering, and so on.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5 wow fadeInUp">
+                                   <img src="img/org-1.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex wow fadeInUp align-items-center ps-md-5">
+                                 <p>CloudDrove helps organizations utilize the best out of the cloud while keeping DevOps at the center of the process.</p>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-How" role="tabpanel" aria-labelledby="nav-How-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>How can CloudDrove help your <br> business?</h3>
+                                 <p>CloudDrove eases your cloud journey by streamlining the processes of development and deployment. Our experts help you improve efficiency, scale revenue, and achieve your business goals faster.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5">
+                                   <img src="img/org-2.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex align-items-center ps-md-5">
+                                 <p>Partner with us for designing, managing, and implementing cloud solutions that ensure continual growth.</p>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-When" role="tabpanel" aria-labelledby="nav-When-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>When is the right time to get <br> CloudDrove on board?</h3>
+                                 <p>Irrespective of the stage or size of your startup or enterprise, our experts help you draw benefits of the cloud through its management, optimization, and automation; along with other cloud solutions.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5">
+                                   <img src="img/org-3.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex align-items-center ps-md-5">
+                                 <p>If you want to move some or probably all of your systems to the cloud, CloudDrove is your committed collaborator. Want to experience seamless scalability, uncompromised security, and better revenue streams? The right time is now.</p>
+                             </div>
+                           </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-Why" role="tabpanel" aria-labelledby="nav-Why-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>Why do you need CloudDrove?</h3>
+                                 <p>CloudDrove assures your business of the best solutions and practices by partnering with your teams to help them navigate through all the challenges around the cloud.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5">
+                                   <img src="img/org-4.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex align-items-center ps-md-5">
+                                 <p>Our experts build strategies keeping every organization’s specific needs at the forefront. With our proficiency across several cloud offerings, CloudDrove is the right partner to successfully drive your business towards digital transformation.</p>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-From" role="tabpanel" aria-labelledby="nav-From-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>From which locations can you partner <b></b> with CloudDrove?</h3>
+                                 <p>CloudDrove is a global cloud solution expert focussing on business outcomes for its clients all over the world. With teams spread over three continents, we are available around the clock.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5">
+                                   <img src="img/org-1.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex align-items-center ps-md-5">
+                                 <p>CloudDrove is currently in business with companies around the world and is rapidly establishing its footprints in every industry.</p>
+                             </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-to" role="tabpanel" aria-labelledby="nav-to-tab">
+                           <div class="row align-items-center">
+                              <div class="offset-md-6 col-md-6 mb-5 ps-md-5 d-flex flex-column justify-content-center">
+                                 <h3>Which businesses does CloudDrove <br> Cater to?</h3>
+                                 <p>Our team of experienced professionals understand your industry and its distinct challenges. CloudDrove works with every business that is on its cloud journey and offers customized solutions.</p>
+                             </div>
+                               <div class="col-md-6 mb-5 pe-md-5">
+                                   <img src="img/org-2.webp" class="img-fluid" alt="">
+                               </div>
+                               <div class="col-md-6 mb-5 d-flex align-items-center ps-md-5">
+                                 <p>From e-commerce to sports and health to fintech, CloudDrove has partnered with several businesses across the globe to drive their cloud journey.</p>
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+
+
+         <div class="partners section-padding">
+             <div class="container">
+                 <div class="row">
+                   <div class="col-md-6 wow fadeInLeft">
+                     <div class="our-partner mb-5">
+                        <div class="media d-flex align-items-center justify-content-start">
+                           <div class="media-icon align-items-center d-flex  me-3">
+                              <img src="img/partner-icon.png" class="img-fluid" alt="partner icon" width="100" height="100">
+                           </div>
+                           <div class="media-body">
+                              <h6 class="text-white">Our Partners</h6>
+                              <p class="mb-0 text-white">The benefits of adopting a DevOps methodology are numerous, and selecting the proper managed DevOps partners is a crucial part of the transformation</p>
+                           </div>
+                        </div>
+                     </div>
+                   </div>
+                 </div>
+
+                 <div class="row col-gap wow fadeInUp">
+                  <div class="col-md-3">
+                     <div class="client-card bg-white">
+                        <div class="img-wrap">
+                           <img src="img/aws.webp" class="img-fluid" alt="aws icon" width="100" height="100">
+                        </div>
+                        <span class="d-block">Amazon Web Services</span>
+                     </div>
+                    </div>
+                    <div class="col-md-3">
+                     <div class="client-card bg-white">
+                        <div class="img-wrap">
+                           <img src="img/icon-2.png" class="img-fluid" alt="aws icon" width="100" height="100">
+                        </div>
+                        <span class="d-block">Digital Ocean</span>
+                     </div>
+                    </div>
+                    <div class="col-md-3">
+                     <div class="client-card bg-white">
+                        <div class="img-wrap">
+                           <img src="img/microsoft.png" class="img-fluid" alt="aws icon" width="100" height="100">
+                        </div>
+                        <span class="d-block">Microsoft</span>
+                     </div>
+                    </div>
+                    <div class="col-md-3">
+                     <div class="client-card bg-white">
+                        <div class="img-wrap">
+                           <img src="img/icon-4.webp" class="img-fluid" alt="aws icon" width="100" height="100">
+                        </div>
+                        <span class="d-block">Datadog</span>
+                     </div>
+                    </div>
+                 </div>
+             </div>
+         </div>
+
+
+         <div class="services section-padding" id="sevice">
+             <div class="container">
+               <div class="row">
+                  <div class="col-md-4 mx-auto text-center">
+                      <h2 class="title">Services</h2>
+                  </div>
+               </div>
+               <div class="sevice-carousel wow fadeInUp owl-carousel owl-theme">
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-2.png" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Gap Assessments</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-2.png" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Gap Assessments</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-2.png" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Gap Assessments</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="service-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="img/service-card-1.webp" class="img-fluid w-100" alt="service card" width="420" height="628">
+                        <div class="service-content">
+                           <h3 class="text-white">Cloud Migration</h3>
+                           <p class="text-white">Get the right solution of Cloud to take your organisation into the Next Generation of Operations. Migrate hassel free.</p>
+                           <a class="link" href="/">Know More</a>
+                        </div>
+                     </div>
+                  </div>
+             </div>
+         </div>
+         </div>
+
+         <div class="stack section-padding">
+             <div class="container">
+               <div class="row justify-content-between">
+                  <div class="col-md-12 mx-auto text-center">
+                      <h2 class="title">Our Knowledge Stack</h2>
+                  </div>
+                  <div class="col-3 wow fadeInLeft">
+                      <img src="img/terraform-logo.png" class="part-logo mx-auto" alt="">
+                  </div>
+                  <div class="col-3 wow fadeInLeft">
+                     <img src="img/Kubernetes_Logo.png" class="part-logo mx-auto" alt="">
+                  </div>
+                  <div class="col-3 wow fadeInLeft">
+                  <img src="img/docker-logo.png" class="part-logo mx-auto" alt="">
+                  </div>
+                  <div class="col-3 wow fadeInLeft">
+                   <img src="img/Ansible-logo.webp" class="part-logo mx-auto" alt="">
+                  </div>
+
+                  <div class="col-md-6 wow fadeInLeft section-padding pb-0">
+                      <img src="img/stack-img.webp" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-5 wow fadeInRight section-padding pb-0 d-flex align-items-center">
+                     <div class="stack-content">
+                        <h3>How DevOps Can Shield Your Startup</h3>
+                        <p>Here’s everything you need to know about DevOps- read this ebook to explore the importance of this culture and methodology within IT along with delving into the details of its tools, processes, and framework.</p>
+                        <button class="download-btn d-flex align-items-center">
+                           <span class="text-white">Download Now</span> 
+                           <img src="img/download.png" alt="">
+                        </button>
+                     </div>
+                  </div>
+               </div>
+             </div>
+         </div>
+
+
+         <div class="publications section-padding">
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-4">
+                     <div class="stack-content">
+                        <h3 class="mb-3">Publications</h3>
+                        <p>Read about our latest insights on cloud and all the technology surrounding it through detailed articles and ebooks. Learn about the most relevant trends on issues that matter most in the software development business.</p>
+                        <a class="btn theme-btn" target="_blank" href="https://blog.clouddrove.com">Read More</a>
+                     </div>
+                   </div>
+                   <div class="col-md-8">
+                     <div class="publication-carousel owl-carousel owl-theme">
+                        <div class="item">
+                           <div class="blog-card">
+                              <a href="" target="_blank" rel="noreferrer">
+                                 <img src="https://api.clouddrove.com/public/file-1687875689865.png" class="img-fluid w-100" alt="blog fig" width="" height="">
+                              </a>
+                              <div class="blog-content text-center">
+                                 <h3 class="my-2">How to deploy AKS in 10 Minutes using Terraform</h3>
+                                 <p>In this blog, we will explore how to use Terraform to deploy an Azure Kubernetes Service (AKS) cluster. AKS is a managed Kubernetes service offered by Microsoft Azure that makes it easy to deploy and manage containerise...</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="item">
+                           <div class="blog-card">
+                              <a href="" target="_blank" rel="noreferrer">
+                                 <img src="img/blg2.webp" class="img-fluid w-100" alt="blog fig" width="" height="">
+                              </a>
+                              <div class="blog-content text-center">
+                                 <h3 class="my-2">Kubernetes Security Practices</h3>
+                                 <p>When it comes to Kubernetes (K8) security as it is said by most of the reviewers that Kubernetes is insecure by design and the cloud system adds to the adversity. CNCF has provided a few guidelines to give better securi...</p>
+                              </div>
+                           </div>
+                        </div>
+
+                        
+                     </div>
+                   </div>
+                </div>
+            </div>
+         </div>
+
+         <footer class="main-footer">
+            <div class="container-fluid">
+               <div class="row">
+                   <div class="col-md-8 mx-auto">
+                     <div class="mb-4 text-center">
+                        <a href="/">
+                           <img src="img/CloudDrove.png" class="img-fluid mx-auto footer-logo" alt="footer logo" width="170" height="36">
+                        </a>
+                        <p class="text-white text-center mt-3"><b class="text-white">Ready to Shift to the DevOps Culture? </b> <br>
+                           Talk to our experts at Cloud Drove to understand in detail the process and benefits.</p>
+                     </div>
+                   </div>
+               </div>
+               <div class="row mt-4">
+                  <div class="col-md-3">
+                     <h5 class="menu-title text-white">Solutions</h5>
+                     <ul class="list-inline foot-menu">
+                        <li><a href="/about">Startup Launch</a></li>
+                        <li><a href="/how-we-work">Modernization & AI</a></li>
+                        <li><a href="/career">Managed DevOps</a></li>
+                        <li><a href="/privacy-policy">Managed Datacenters</a></li>
+                        <li><a href="/terms-of-services">Campliance Remediation</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <h5 class="menu-title text-white">Marketplace</h5>
+                     <ul class="list-inline foot-menu">
+                        <li><a href="/about">AWS Marketplace</a></li>
+                        <li><a href="/how-we-work">Terraform Registry</a></li>
+                        <li><a href="/career">Github</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                     <h5 class="menu-title text-white">Marketplace</h5>
+                     <ul class="list-inline foot-menu">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/how-we-work">How We Work</a></li>
+                        <li><a href="/career">Contact</a></li>
+                        <li><a href="/career">Privacy Policy</a></li>
+                        <li><a href="/career">Terms and Conditions</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-3">
+                   <h5 class="menu-title text-white">Newsletter</h5>
+                     <input type="text" class="w-100 subs" placeholder="Sign up for our newsletter*">
+                     <div class="d-flex bl-btn">
+                        <a href="" class="btn theme-btn">Subscribe</a>
+                     </div>
+
+                     <h5 class="menu-title text-white mt-4">Contact</h5>
+                     <div class="mail_user mb-4">
+                        <span class=" text-white">hello@clouddrove.com</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row mt-5 pt-3 justify-content-between">
+                  <div class="col-md-6">
+                      <p class="mob-center">© Copyright 2025 clouddrove. All Rights Reserved</p>
+                  </div>
+                  <div class="col-md-3 ">
+                     <ul class="list-inline mob-center">
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://www.upwork.com/ag/clouddrove/">
+                              <img src="img/upwork.png" class="img-fluid" alt="upwork" width="38" height="38">
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://github.com/clouddrove">
+                              <img src="img/github.png" class="img-fluid" alt="upwork" width="38" height="38">
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://ca.linkedin.com/company/clouddrove">
+                              <img src="img/linkedIn.png" class="img-fluid" alt="upwork" width="35" height="35">
+                           </a>
+                        </li>
+                        <li class="list-inline-item">
+                           <a target="_blank" href="https://twitter.com/clouddrove?lang=en">
+                              <img src="img/twitter_icon.png" class="img-fluid" alt="twitter" width="35" height="35">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </footer>
+
+      </div>
+      <!--Js files start here-->
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+      <script src="js/wow.min.js" type="text/javascript"></script>
+      <script src="js/owl.carousel.js" type="text/javascript"></script>
+      <script>
+         $('.sevice-carousel').owlCarousel({
+           loop:true,
+           margin:30,
+           nav:false,
+           dots:true,
+           autoplay:false,
+           responsive:{
+               0:{
+                   items:1
+               },
+               600:{
+                   items:2
+               },
+               1000:{
+                   items:3
+               }
+           }
+         })
+      </script>
+      <script>
+         $('.publication-carousel').owlCarousel({
+           loop:true,
+           margin:30,
+           nav:false,
+           dots:true,
+           autoplay:true,
+           responsive:{
+               0:{
+                   items:1
+               },
+               600:{
+                   items:2
+               },
+               1000:{
+                   items:2
+               }
+           }
+         })
+      </script>
+      <script>
+         new WOW().init();
+         </script>
+   </body>
+</html>
